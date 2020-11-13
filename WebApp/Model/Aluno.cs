@@ -14,5 +14,13 @@ namespace WebApp.Model
         {
             return 10;
         }
+
+        public void Teste2(int qtde)
+        {
+            
+        }
+
     }
 }
+    
+
