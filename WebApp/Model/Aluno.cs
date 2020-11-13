@@ -8,13 +8,11 @@ namespace WebApp.Model
 
         public Aluno()
         {
-            
         }
 
         public int Teste()
         {
             return 10;
         }
-       
     }
 }
