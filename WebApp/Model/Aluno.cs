@@ -11,9 +11,9 @@ namespace WebApp.Model
             
         }
 
-        public void Teste()
+        public int Teste()
         {
-            
+            return 10;
         }
        
     }
