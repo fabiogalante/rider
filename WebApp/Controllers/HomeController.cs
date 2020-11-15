@@ -16,9 +16,9 @@ namespace WebApp.Controllers
             _aluno = aluno;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int valor)
         {
-            _aluno.Id = 10;
+            _aluno.Id = valor;
             _aluno.Teste();
             return View();
         }
